@@ -50,14 +50,14 @@
                     <!-- card section -->
                      <div class="grid grid-cols-3">
                         <!-- c-1 -->
-                        <div id="addMoney" class="border-gray-300 border-1 rounded-lg p-4 m-4 flex flex-col items-center hover:bg-green-100 cursor-pointer">
+                        <div id="addMoneyBox" class="border-gray-300 border-1 rounded-lg p-4 m-4 flex flex-col items-center hover:bg-green-100 cursor-pointer">
                             <img src="assets/wallet1.png" alt="">
                             <p>
                                 Add Money
                             </p>
                         </div>
                         <!-- c-2 -->
-                        <div class="border-gray-300 border-1 rounded-lg p-4 m-4 flex flex-col items-center hover:bg-green-100 cursor-pointer">
+                        <div id="cashOutBox" class="border-gray-300 border-1 rounded-lg p-4 m-4 flex flex-col items-center hover:bg-green-100 cursor-pointer">
                             <img src="assets/send1.png" alt="">
                             <p>
                                 Cashout
@@ -100,7 +100,7 @@
                 
                 <!-- history section -->
 
-                <section class="hidden">
+                <section id="history" class="block">
                     <!-- history div -->
                     <div class="flex justify-between items-center px-4 mt-8">
                         <h1 class="text-xl font-bold">
@@ -153,7 +153,7 @@
 
                 <!-- add money section -->
 
-                <section id="addMoneySection" class="block">
+                <section id="addMoneySection" class="hidden">
                     <div class="px-4 mt-8">
                         <h1 class="text-xl font-bold">
                             Add Money
@@ -163,7 +163,13 @@
                     <form class="bg-white p-5 rounded-lg shadow-lg m-7">
                         <fieldset class="fieldset">
                             <label class="fieldset-label font-bold">Select A Bank</label>
-                            <input id="" type="text" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Select back"/>
+                            <!-- <input id="" type="text" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Select back"/> -->
+                             <select name="" id="" class="select w-full bg-gray-200 border-0" required>
+                                <option value="" disabled selected>Pick a bank</option>
+                                <option value="">Bkash</option>
+                                <option value="">Nagad</option>
+                                <option value="">Rocket</option>
+                             </select>
 
                             <label class="fieldset-label font-bold">Bank Account Number</label>
                             <input value="12345678901" id="" type="number" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Enter 11 digit account number" required/>
@@ -181,7 +187,7 @@
 
                 <!-- cash out section -->
 
-                <section class="hidden">
+                <section id="cashOutSection" class="hidden">
                     <div class="px-4 mt-8">
                         <h1 class="text-xl font-bold">
                             Cash Out
@@ -192,13 +198,13 @@
                         <fieldset class="fieldset">
                             
                             <label class="fieldset-label font-bold">Agent Number</label>
-                            <input id="" type="number" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Enter 11 digit number" required/>
+                            <input value="12345678901" id="" type="number" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Enter 11 digit number" required/>
 
                             <label class="fieldset-label font-bold">Amount</label>
                             <input id="" type="number" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Enter amount to withdraw" required/>
 
                             <label class="fieldset-label font-bold">Pin Number</label>
-                            <input id="" type="number" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Enter 4 digit pin number" required/>
+                            <input value="1234" id="" type="number" class="input bg-gray-200 border-0 rounded-lg w-full" placeholder="Enter 4 digit pin number" required/>
                             
                             <button id="" class="btn btn-neutral mt-4">Withdraw Money</button>
                         </fieldset>
@@ -339,6 +345,9 @@
     
         </footer>
     
+        <!-- <script src="script.js"></script> -->
         <script src="addMoney.js"></script>
+        <script src="cashout.js"></script>
+        <script src="toggle.js"></script>
     </body>
 </html>

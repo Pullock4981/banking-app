@@ -21,6 +21,7 @@ document.getElementById("addToMoney")
             const sum = convertedMainBalance + convertedAmount;
             // console.log(sum)
             document.getElementById("main-balance").innerText = sum;
+            document.getElementById("addedAmount").value = '';
         }
         else {
             alert("thik thak pin daw")
