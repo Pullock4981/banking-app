@@ -9,18 +9,38 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <!-- header section -->
-    <header>
-
-    </header>
+<body class="bg-slate-800">
+    
     <!-- main section -->
     <main>
-        <h1 class="text-3xl">hiiiiiii</h1>
+        <section class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+            <!-- header section -->
+            <header class="mt-40">
+                <div class="flex justify-center items-center mt-20">
+                    <div class="flex items-center relative w-9/12 my-10">
+                        <img class="absolute w-48 left-16" src="assets/bg.png" alt="">
+                        <img class="absolute left-32" src="assets/Group.png" alt="">
+                    </div>
+                </div>
+            </header>
+            <!-- log in section -->
+            <form class="bg-white p-10 rounded-lg shadow-lg m-7 mt-20">
+                <fieldset class="fieldset">
+                    <label class="fieldset-label">Mobile Number</label>
+                    <input value="01624334044" id="mobile-number" type="number" class="input" placeholder="Enter your number" required/>
+                    <label class="fieldset-label">4 Digit Pin</label>
+                    <input value="1234" id="pin" type="text" class="input" placeholder="Enter 4 Digit Pin" required/>
+                    <!-- <div><a class="link link-hover">Forgot password?</a></div> -->
+                    <button id="logInBtn" class="btn btn-neutral mt-4">Login</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <!-- footer section -->
     <footer>
 
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
