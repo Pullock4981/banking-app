@@ -12,10 +12,10 @@ document.getElementById("addMoneyBox")
         document.getElementById("transactionSection").classList.add("hidden");
         if ("addMoneySection") {
             // console.log('hi')
-            document.getElementById("addMoneyBox").style.backgroundColor = "#dff7df"
+            // document.getElementById("addMoneyBox").style.backgroundColor = "#dff7df"
         }
         else {
-            document.getElementById("addMoneyBox").style.backgroundColor = "white"
+            // document.getElementById("addMoneyBox").style.backgroundColor = "white"
         }
     })
 
@@ -32,10 +32,10 @@ document.getElementById("cashOutBox")
         document.getElementById("transactionSection").classList.add("hidden");
         if ("cashOutSection") {
             // console.log('hi')
-            document.getElementById("cashOutBox").style.backgroundColor = "#dff7df"
+            // document.getElementById("cashOutBox").style.backgroundColor = "#dff7df"
         }
         else {
-            document.getElementById("cashOutBox").style.backgroundColor = "white"
+            // document.getElementById("cashOutBox").style.backgroundColor = "white"
         }
     })
 
@@ -52,10 +52,10 @@ document.getElementById("transferMoneyBox")
         document.getElementById("transactionSection").classList.add("hidden");
         if ("transferMoneySection") {
             // console.log('hi')
-            document.getElementById("transferMoneyBox").style.backgroundColor = "#dff7df"
+            // document.getElementById("transferMoneyBox").style.backgroundColor = "#dff7df"
         }
         else {
-            document.getElementById("transferMoneyBox").style.backgroundColor = "white"
+            // document.getElementById("transferMoneyBox").style.backgroundColor = "white"
         }
     })
 
@@ -72,10 +72,10 @@ document.getElementById("getBonusBox")
         document.getElementById("transactionSection").classList.add("hidden");
         if ("getBonusSection") {
             // console.log('hi')
-            document.getElementById("getBonusBox").style.backgroundColor = "#dff7df"
+            // document.getElementById("getBonusBox").style.backgroundColor = "#dff7df"
         }
         else {
-            document.getElementById("getBonusBox").style.backgroundColor = "white"
+            // document.getElementById("getBonusBox").style.backgroundColor = "white"
         }
     })
 
@@ -92,10 +92,10 @@ document.getElementById("payBillBox")
         document.getElementById("transactionSection").classList.add("hidden");
         if ("payBillSection") {
             // console.log('hi')
-            document.getElementById("payBillBox").style.backgroundColor = "#dff7df"
+            // document.getElementById("payBillBox").style.backgroundColor = "#dff7df"
         }
         else {
-            document.getElementById("payBillBox").style.backgroundColor = "white"
+            // document.getElementById("payBillBox").style.backgroundColor = "white"
         }
     })
 
@@ -112,9 +112,9 @@ document.getElementById("transactionBox")
         document.getElementById("payBillSection").classList.add("hidden");
         if ("transactionSection") {
             // console.log('hi')
-            document.getElementById("transactionBox").style.backgroundColor = "#dff7df"
+            // document.getElementById("transactionBox").style.backgroundColor = "#dff7df"
         }
         else {
-            document.getElementById("transactionBox").style.backgroundColor = "white"
+            // document.getElementById("transactionBox").style.backgroundColor = "white"
         }
     })
